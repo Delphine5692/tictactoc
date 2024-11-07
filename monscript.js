@@ -5,10 +5,18 @@ var boxes = [];
 
 var gagnant = 0;
 
+var reset()
+{
+  
+}
+
 function change_player()
 {
     if (gagnant != 0)
-    {return;}
+    {
+      reset();
+      return;
+    }
 
     if (player==1)
     {
